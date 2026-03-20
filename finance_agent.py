@@ -40,7 +40,7 @@ def get_stock_data(ticker: str) -> str:
     return hist.to_csv()
 
 # --------------------------------------------------
-# INDICATORS
+# INDICATORSyyy
 # --------------------------------------------------
 def compute_rsi(series, period=14):
     delta = series.diff()

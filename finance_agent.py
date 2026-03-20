@@ -61,17 +61,7 @@ def compute_macd(series):
 # --------------------------------------------------
 # CHARTS
 # --------------------------------------------------
-def generate_charts(df, ticker):
-    print(f"Generating charts for {ticker}")
-    plt.figure()
-    df["Close"].plot(title=f"{ticker} Price")
-    plt.savefig("price.png")
-    plt.close()
 
-    plt.figure()
-    df["Volume"].plot(title=f"{ticker} Volume")
-    plt.savefig("volume.png")
-    plt.close()
 
     plt.figure()
     df["RSI"].plot(title="RSI")

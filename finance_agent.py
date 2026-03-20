@@ -13,7 +13,7 @@ from fpdf import FPDF
 from langchain_openai import ChatOpenAI
 from langchain_core.tools import tool
 from langchain_core.messages import HumanMessage, ToolMessage
-
+#hiii
 # --------------------------------------------------
 # ENV
 # --------------------------------------------------
@@ -40,7 +40,7 @@ def get_stock_data(ticker: str) -> str:
     return hist.to_csv()
 
 # --------------------------------------------------
-# INDICATORS
+# INDICATORSyyy
 # --------------------------------------------------
 def compute_rsi(series, period=14):
     delta = series.diff()
